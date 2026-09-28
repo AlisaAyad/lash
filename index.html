@@ -5,35 +5,19 @@
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
 <title>AA Lashstudio – Afspraak maken</title>
 <meta name="description" content="Plan online je lashlift bij AA Lashstudio. Kies een vrije tijd en je afspraak staat meteen vast.">
+<meta name="theme-color" content="#fffafc">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@500;600&family=Jost:wght@400;500;600&display=swap">
-<link rel="stylesheet" href="assets/style.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@500;600&family=Jost:wght@400;500&display=swap">
+<link rel="stylesheet" href="assets/book.css">
 <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Ccircle cx='16' cy='16' r='16' fill='%23d94f86'/%3E%3Ctext x='16' y='21' font-family='Georgia' font-size='14' fill='white' text-anchor='middle'%3EAA%3C/text%3E%3C/svg%3E">
 </head>
 <body>
-<div class="wrap">
-  <header class="top">
-    <div class="brand"><b>AA Lashstudio</b></div>
-  </header>
-  <div id="demo" class="banner" hidden>Demomodus: de site is nog niet aan de database gekoppeld. Afspraken worden niet echt opgeslagen.</div>
-  <main class="grid-klant">
-    <aside class="panel bizhead">
-      <span class="kind">Lash lifting</span>
-      <h2>AA Lashstudio</h2>
-      <span class="muted">Lashlifts met of zonder tint. Op afspraak.</span>
-      <span id="address" class="muted" hidden></span>
-      <div class="label" style="margin-top:14px">Behandelingen</div>
-      <div id="prices" class="list"></div>
-      <div class="label" style="margin-top:14px">Openingstijden</div>
-      <div id="hours" class="hours"></div>
-    </aside>
-    <section class="panel" id="flow" aria-live="polite"><div class="loading">Agenda laden</div></section>
-  </main>
-  <footer class="foot">
-    <span>© AA Lashstudio</span>
-    <a href="studio.html">Inloggen studio</a>
-  </footer>
+<div class="page">
+  <header class="brandbar" id="brand" hidden><b>AA Lashstudio</b></header>
+  <div id="demo" class="banner" hidden>Demomodus: afspraken worden niet echt opgeslagen.</div>
+  <main id="flow" aria-live="polite"><div class="loading">Laden</div></main>
+  <footer class="foot">© AA Lashstudio · <a href="studio.html">Studio</a></footer>
 </div>
 <script type="module" src="assets/book.js"></script>
 </body>
