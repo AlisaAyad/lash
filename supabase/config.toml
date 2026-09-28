@@ -1,0 +1,17 @@
+project_id = "aalashstudio"
+
+# De functies controleren zelf wie er toegang heeft.
+[functions.availability]
+verify_jwt = false
+
+[functions.book]
+verify_jwt = false
+
+[functions.studio]
+verify_jwt = false
+
+[functions.calendar-feed]
+verify_jwt = false
+
+[functions.reminders]
+verify_jwt = false

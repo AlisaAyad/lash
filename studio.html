@@ -1,0 +1,26 @@
+<!doctype html>
+<html lang="nl">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<meta name="robots" content="noindex">
+<title>AA Lashstudio – Studio-agenda</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@500;600&family=Jost:wght@400;500;600&display=swap">
+<link rel="stylesheet" href="assets/style.css">
+<script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2"></script>
+</head>
+<body>
+<div class="wrap">
+  <header class="top">
+    <div class="brand"><b>AA Lashstudio</b><span class="proto">Studio</span></div>
+    <a href="index.html" class="muted" style="font-size:.9rem">Naar de boekingspagina</a>
+    <button class="btn ghost sm" id="logout" hidden>Uitloggen</button>
+  </header>
+  <div id="demo" class="banner" hidden>Demomodus: de site is nog niet aan de database gekoppeld. Je ziet voorbeeldafspraken.</div>
+  <main id="app"><div class="loading">Laden</div></main>
+</div>
+<script type="module" src="assets/studio.js"></script>
+</body>
+</html>
