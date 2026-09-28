@@ -41,6 +41,8 @@ button{cursor:pointer}
 .svc .p{font-family:var(--display);font-size:1.5rem;font-weight:600}
 .svc .go{width:32px;height:32px;border-radius:50%;background:var(--accent-soft);display:grid;place-items:center;flex:none}
 
+.dm{margin:26px auto 0;max-width:32ch;text-align:center;color:var(--muted);font-size:.95rem;line-height:1.5}
+
 /* stappen */
 .stepbar{display:flex;align-items:center;gap:12px;padding-block:18px 8px}
 .back{width:40px;height:40px;border-radius:50%;border:1px solid var(--line);background:var(--surface);display:grid;place-items:center;flex:none}
