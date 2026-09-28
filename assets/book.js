@@ -77,7 +77,7 @@ function render() {
       <div class="hero">
         <div class="eyebrow">Lash lifting · op afspraak</div>
         <h1>${esc(st.studioName || "AA Lashstudio")}</h1>
-        <p>Kies je behandeling en plan direct een moment dat jou uitkomt.</p>
+        <p>Staat er geen plekje in de agenda dat jou uitkomt? Stuur me gerust een DM 🫶🏼</p>
         <div class="info">
           <span>${ICON_CLOCK}<span>${hoursText(st.hours)}</span></span>
           ${st.address ? `<span>${ICON_PIN}<span>${esc(st.address)}</span></span>` : ""}
@@ -92,7 +92,6 @@ function render() {
           <span class="go">${ICON_ARROW}</span>
         </button>`).join("")}
       </div>
-      <p class="dm">Staat er geen plekje in de agenda dat jou uitkomt? Stuur me gerust een DM 🫶🏼</p>
     </section>`;
     return;
   }
