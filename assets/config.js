@@ -1,7 +1,1 @@
-// Vul hier de gegevens van je Supabase-project in (Project Settings > API).
-// Deze sleutel is bedoeld om openbaar te zijn; hij geeft alleen toegang tot wat de database toestaat.
-// Laat je ze leeg, dan draait de site in demomodus met voorbeeldgegevens.
-export const CONFIG = {
-  SUPABASE_URL: "",   // bijv. "https://abcdefghijkl.supabase.co"
-  SUPABASE_KEY: "",   // de "anon public" of "publishable" sleutel
-};
+export const CONFIG = { SUPABASE_URL: "https://febatqbftxdwiqxmwsxf.supabase.co", SUPABASE_KEY: "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6ImZlYmF0cWJmdHhkd2lxeG13c3hmIiwicm9sZSI6ImFub24iLCJpYXQiOjE3OTA1OTgyNzksImV4cCI6MjEwNjE3NDI3OX0.zan-E6WLYv8Rg9tq43zjSHzBUrFmLGk_LoKOnb9tS0A" };
