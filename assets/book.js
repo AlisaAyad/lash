@@ -92,6 +92,7 @@ function render() {
           <span class="go">${ICON_ARROW}</span>
         </button>`).join("")}
       </div>
+      <p class="dm">Staat er geen plekje in de agenda dat jou uitkomt? Stuur me gerust een DM 🫶🏼</p>
     </section>`;
     return;
   }
